@@ -250,4 +250,287 @@ function genMLB() {
     
     
     alert(fruits)
-  }
+
+
+
+            
+            
+            
+             
+
+    if (fruits == 'Arizona Diamondbacks') {
+        //greeting = "Good day";
+        alert("we r here");
+      }
+      
+      if (fruits == 'Atlanta Braves') {
+        //greeting = "Good day";
+        alert("1");
+      }
+
+      if (fruits == 'Baltimore Orioles') {
+        //greeting = "Good day";
+        alert("2");
+      }
+
+      if (fruits == 'Boston Red Sox') {
+        //greeting = "Good day";
+        alert("3");
+      }
+
+      if (fruits == 'Chicago Cubs') {
+        //greeting = "Good day";
+        alert("4");
+      }
+
+      if (fruits == 'Chicago White Sox') {
+        //greeting = "Good day";
+        alert("5");
+      }
+
+      if (fruits == 'Cincinnati Reds') {
+        //greeting = "Good day";
+        alert("6");
+      }
+
+      if (fruits == 'Cleveland Guardians') {
+        //greeting = "Good day";
+        alert("7");
+      }
+
+      if (fruits == 'Colorado Rockies') {
+        //greeting = "Good day";
+        alert("1");
+      }
+
+      if (fruits == 'Detroit Tigers') {
+        //greeting = "Good day";
+        alert("2");
+      }
+
+      if (fruits == 'Houston Astros') {
+        //greeting = "Good day";
+        alert("3");
+      }
+
+      if (fruits == 'Kansas City Royals') {
+        //greeting = "Good day";
+        alert("4");
+      }
+
+      if (fruits == 'Los Angeles Angels') {
+        //greeting = "Good day";
+        alert("5");
+      }
+
+      if (fruits == 'Los Angeles Dodgers') {
+        //greeting = "Good day";
+        alert("6");
+      }
+
+      if (fruits == 'Miami Marlins') {
+        //greeting = "Good day";
+        alert("7");
+      }
+
+      if (fruits == 'Milwaukee Brewers') {
+        //greeting = "Good day";
+        alert("1");
+      }
+
+      if (fruits == 'Minnesota Twins') {
+        //greeting = "Good day";
+        alert("2");
+      }
+
+      if (fruits == 'New York Mets') {
+        //greeting = "Good day";
+        alert("3");
+      }
+
+      if (fruits == 'New York Yankees') {
+        //greeting = "Good day";
+        alert("4");
+      }
+
+      if (fruits == 'Oakland Athletics') {
+        //greeting = "Good day";
+        alert("5");
+      }
+
+      if (fruits == 'Philadelphia Phillies') {
+        //greeting = "Good day";
+        alert("6");
+      }
+
+      if (fruits == 'Pittsburgh Pirates') {
+        //greeting = "Good day";
+        alert("7");
+      }
+
+      if (fruits == 'San Diego Padres') {
+        //greeting = "Good day";
+        alert("1");
+      }
+
+      if (fruits == 'San Francisco Giants') {
+        //greeting = "Good day";
+        alert("2");
+      }
+
+      if (fruits == 'Seattle Mariners') {
+        //greeting = "Good day";
+        alert("3");
+      }
+
+      if (fruits == 'St. Louis Cardinals') {
+        //greeting = "Good day";
+        alert("4");
+      }
+
+      if (fruits == 'Tampa Bay Rays') {
+        //greeting = "Good day";
+        alert("5");
+      }
+
+      if (fruits == 'Texas Rangers') {
+        //greeting = "Good day";
+        alert("6");
+      }
+
+      if (fruits == 'Toronto Blue Jays') {
+        //greeting = "Good day";
+        alert("7");
+      }
+
+      if (fruits == 'Washington Nationals') {
+        //greeting = "Good day";
+        alert("1");
+      }
+
+    
+  
+    if (fruits == 'Diamondbacks') {
+        alert("1");
+    }
+
+    if (fruits == 'Braves') {
+        alert("2");
+    }
+
+    if (fruits == 'Orioles') {
+        alert("3");
+    }
+
+    if (fruits == 'Red Sox') {
+        alert("4");
+    }
+
+    if (fruits == 'Cubs') {
+        alert("5");
+    }
+
+    if (fruits == 'White Sox') {
+        alert("6");
+    }
+
+    if (fruits == 'Reds') {
+        alert("7");
+    }
+
+
+    if (fruits == 'Guardians') {
+        alert("1");
+    }
+
+    if (fruits == 'Rockies') {
+        alert("2");
+    }
+
+    if (fruits == 'Tigers') {
+        alert("3");
+    }
+
+    if (fruits == 'Astros') {
+        alert("4");
+    }
+
+    if (fruits == 'Royals') {
+        alert("5");
+    }
+
+    if (fruits == 'Angels') {
+        alert("6");
+    }
+
+    if (fruits == 'Dodgers') {
+        alert("7");
+    }
+
+    if (fruits == 'Marlins') {
+        alert("1");
+    }
+
+    if (fruits == 'Brewers') {
+        alert("2");
+    }
+
+    if (fruits == 'Twins') {
+        alert("3");
+    }
+
+    if (fruits == 'Mets') {
+        alert("4");
+    }
+
+    if (fruits == 'Yankees') {
+        alert("5");
+    }
+
+    if (fruits == 'Athletics') {
+        alert("6");
+    }
+
+    if (fruits == 'Phillies') {
+        alert("7");
+    }
+
+    if (fruits == 'Pirates') {
+        alert("1");
+    }
+
+    if (fruits == 'Padres') {
+        alert("2");
+    }
+
+    if (fruits == 'Giants') {
+        alert("3");
+    }
+
+    if (fruits == 'Mariners') {
+        alert("4");
+    }
+
+    if (fruits == 'Cardinals') {
+        alert("5");
+    }
+
+    if (fruits == 'Rays') {
+        alert("6");
+    }
+
+    if (fruits == 'Rangers') {
+        alert("7");
+    }
+
+    if (fruits == 'Blue Jays') {
+        alert("1");
+    }
+
+    if (fruits == 'Nationals') {
+        alert("2");
+    }
+
+    
+            
+}
