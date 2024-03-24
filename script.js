@@ -263,18 +263,85 @@ function genMLB() {
 
 function genWNBA() {
 
-  threes = ['🤩', 'Braves', '💥', 'Red Sox', 'Cubs',
-    'White Sox', 'Reds', 'Guardians', 'Rockies', 'Tigers',
-    'Astros', 'Royals', 'Angels', 'Dodgers', 'Marlins',
-    'Brewers', 'Twins', 'Mets', 'Yankees', 'Athletics',
-    'Phillies', 'Pirates', 'Padres', 'Giants', 'Mariners',
-    'Cardinals', 'Rays', 'Rangers', 'Blue Jays', 'Nationals']
 
+
+
+
+
+
+  ones = ['🤩', 'Seattle Storm', '💥', 'Phoenix Mercury', '💙',
+    '💋', 'Reds', 'Minnesota Lynx', '💯', '🙉',
+    'Los Angeles Sparks', '👨‍🦱', 'Las Vegas Aces', '💪', 'Dallas Wings',
+    '👍', 'Washington Mystics', '💣', 'New York Liberty', '💕',
+    'Indiana Fever', '😹', 'Connecticut Sun', '👁️‍🗨️', 'Chicago Sky',
+    '👹', 'Atlanta Dream', '👻', '😱', '👽']
+
+
+    twos = ['🤩', 'Seattle Storm', '💥', 'Los Angeles Sparks', '💙',
+    '💋', 'Reds', 'Minnesota Lynx', '💯', '🙉',
+     '👨‍🦱', 'Las Vegas Aces', '💪', '😱', 'Dallas Wings',
+    '👍', 'Washington Mystics', '💣', 'New York Liberty', '💕',
+    'Indiana Fever', '😹', 'Connecticut Sun', '👁️‍🗨️', 'Chicago Sky',
+    '👹', 'Atlanta Dream', '👻', 'Phoenix Mercury',  '👽']
+
+    list_1 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+      11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+      21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+      31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+      41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+
+list_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+      11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+      21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+      31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+      41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+
+
+      const fruits = [];
+
+  for (let i = 0; i < 50; i++) {
+      var ran_int = int_list[Math.floor(Math.random()*int_list.length)];
+      var ran_ani = animals[Math.floor(Math.random()*animals.length)];
+      console.log(ran_ani+ran_int);
+
+      ran_num = ran_ani+ran_int;
+
+      json_data[ran_num]
+
+      if (json_data[ran_num] % 2 == 0) {
+          fruits.push(ones[Math.floor(Math.random()*ones.length)]);
+      }
+
+      if (json_data[ran_num] % 2 == 1) {
+              fruits.push(twos[Math.floor(Math.random()*twos.length)]);
+          }
+      
+    }
+
+
+    for (let i = 0; i < 49; i++) {
+      var ran_int = int_list[Math.floor(Math.random()*int_list.length)];
+      var ran_ani = animals[Math.floor(Math.random()*animals.length)];
+      console.log(ran_ani+ran_int);
+
+      ran_num = ran_ani+ran_int;
+
+      json_data[ran_num]
+
+      if (json_data[ran_num] % 2 == 0) {
+          fruits.pop();
+      }
+
+      if (json_data[ran_num] % 2 == 1) {
+              fruits.shift();
+          }
+      
+    }
   
-    var ran_int = threes[Math.floor(Math.random()*threes.length)];
+    //var ran_int = threes[Math.floor(Math.random()*threes.length)];
 
 
-  document.getElementById('wnba_team').innerHTML = ran_int;
+  document.getElementById('wnba_team').innerHTML = fruits;
 
 }
 function genNHL() {
