@@ -25,7 +25,31 @@
 
 
 
-<h3>new data</h3>
+<h3>old MLB teams</h3>
+
+    <form>
+        <input type="text" id="input_id" value="">
+        <input type="submit" value="Submit">
+        <div id="alert" style="color: red"></div>
+    </form>
+
+<button type="button" id="btnOldMLB" onclick="get_old_mlb_match()">get old MLB teams</button>
+
+
+<p id="old_mlb_teams"></p>
+
+
+
+<ul class="lists">
+
+</ul>
+
+<template id="template">
+    <li class="template-list">
+        <p class="template-city"></p>
+        <p class="template-country"></p>
+    </li>
+</template>
 
 
 <script src="script.js"></script>
