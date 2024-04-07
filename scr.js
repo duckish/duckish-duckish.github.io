@@ -5411,10 +5411,7 @@ function gen_mlb_today() {
 
   //const myElement = document.getElementById("demo");
 
-  //var var01 = document.getElementById('input_id').value;
-
-  var var01 = document.getElementById('logemail').value;
-  
+  var var01 = document.getElementById('input_id').value;
 
   var old_teams = [];  
 

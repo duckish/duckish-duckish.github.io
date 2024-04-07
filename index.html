@@ -1,87 +1,103 @@
+
 <!DOCTYPE html>
-<html>
-<body>
-<h3>MLB</h3>
-<button type="button" id="btnMLB" onclick="genMLB()">Generate MLB team</button>
+  <html>
+    <head>
+      <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+	<div class="section">
+		<div class="container">
+			<div class="row full-height justify-content-center">
+				<div class="col-12 text-center align-self-center py-5">
+					<div class="section pb-5 pt-5 pt-sm-2 text-center">
+						
+			          	<!-- <input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/> -->
+			          	<!-- <label for="reg-log"></label> -->
+						<div class="card-3d-wrap mx-auto">
+							<div class="card-3d-wrapper">
+								<div class="card-front">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<!-- <h4 class="mb-4 pb-3">Log In</h4> -->
+											<div class="form-group">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<!-- <div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div> -->
+											<a href="#" class="btn mt-4" id="btnOldMLB" onclick="gen_mlb_today()">get today MLB</a>
+                            				<!-- <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p> -->
+                                            
+											<a href="#" class="btn mt-4" onclick="genMLB()">MLB</a>
 
-<p id="mlb_team"></p>
+											<a href="#" class="btn mt-4" onclick="genNHL()">NHL</a>
 
-<h3>NHL</h3>
-<button type="button" id="btnNHL" onclick="genNHL()">get NHL team</button>
+											<a href="#" class="btn mt-4" onclick="genWNBA()">WNBA</a>
 
-<p id="nhl_team"></p>
+											<a href="#" class="btn mt-4" onclick="genCFL()">CFL</a>
 
-<h3>WNBA</h3>
-<button type="button" id="btnWNBA" onclick="genWNBA()">get WNBA team</button>
+											<!-- <button type="button" id="btnNHL" onclick="genNHL()">get NHL team</button> -->
 
-<p id="wnba_team"></p>
+											<!-- <button type="button" id="btnMLB" onclick="genMLB()">Generate MLB team</button> -->
 
+                                            <p id="mlb_team"></p>
 
+											<p id="nhl_team"></p>
 
-<h3>CFL</h3>
-<button type="button" id="btnCFL" onclick="genCFL()">get CFL team</button>
+											<p id="wnba_team"></p>
 
-<p id="cfl_team"></p>
+											<p id="cfl_team"></p>
 
+											<form>
+												<input type="submit" value="Reset" class="button">	
+											</form>
 
+				      					</div>
+			      					</div>
+			      				</div>
+								<!-- <div class="card-back">
+									<div class="center-wrap">
+										<div class="section text-center">
+											<h4 class="mb-4 pb-3">Sign Up</h4>
+											<div class="form-group">
+												<input type="text" name="logname" class="form-style" placeholder="Your Full Name" id="logname" autocomplete="off">
+												<i class="input-icon uil uil-user"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="email" name="logemail" class="form-style" placeholder="Your Email" id="logemail" autocomplete="off">
+												<i class="input-icon uil uil-at"></i>
+											</div>	
+											<div class="form-group mt-2">
+												<input type="password" name="logpass" class="form-style" placeholder="Your Password" id="logpass" autocomplete="off">
+												<i class="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" class="btn mt-4" id="btnOldMLB" onclick="gen_mlb_today()">submit</a>			
+											  
+				      					</div>
+			      					</div>
+			      				</div> -->
+			      			</div>
+			      		</div>
 
-<h3>old MLB teams</h3>
+						  <ul class="lists2">
+													
+						  </ul>
+						  
+						  <template id="template2">
+							  <li class="template2-list">
+								  <p class="template2-team"></p>
+							  </li>
+						  </template>
+			      	</div>
+				</div>
+          </div>
+	    </div>
+	</div>
 
-    <form>
-        <input type="text" id="input_id" value="">
-        <input type="submit" value="Submit">
-        <div id="alert" style="color: red"></div>
-    </form>
+  
 
-<button type="button" id="btnOldMLB" onclick="get_old_mlb_match()">get old MLB teams</button>
-
-
-<p id="old_mlb_teams"></p>
-
-
-
-<ul class="lists">
-
-</ul>
-
-<template id="template">
-    <li class="template-list">
-        <p class="template-city"></p>
-        <p class="template-country"></p>
-    </li>
-</template>
-
-
-<h3>new MLB teams</h3>
-
-<button type="button" id="btnOldMLB" onclick="get_new_mlb_match()">get new MLB teams</button>
-
-
-<ul class="lists1">
-
-</ul>
-
-<template id="template1">
-    <li class="template1-list">
-        <p class="template1-city"></p>
-        <p class="template1-country"></p>
-    </li>
-</template>
-
-<button type="button" id="btnOldMLB" onclick="gen_mlb_today()">get today</button>
-
-
-<ul class="lists2">
-
-</ul>
-
-<template id="template2">
-    <li class="template2-list">
-        <p class="template2-team"></p>
-    </li>
-</template>
-
-<h3>serieux !?!?!?!</h3>
-<script src="script.js"></script>
-</body>
+  <script src="script.js"></script>
+    </body>
 </html>

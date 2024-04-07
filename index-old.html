@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>MLB</h3>
+<button type="button" id="btnMLB" onclick="genMLB()">Generate MLB team</button>
+
+<p id="mlb_team"></p>
+
+<h3>NHL</h3>
+<button type="button" id="btnNHL" onclick="genNHL()">get NHL team</button>
+
+<p id="nhl_team"></p>
+
+<h3>WNBA</h3>
+<button type="button" id="btnWNBA" onclick="genWNBA()">get WNBA team</button>
+
+<p id="wnba_team"></p>
+
+
+
+<h3>CFL</h3>
+<button type="button" id="btnCFL" onclick="genCFL()">get CFL team</button>
+
+<p id="cfl_team"></p>
+
+
+
+<h3>old MLB teams</h3>
+
+    <form>
+        <input type="text" id="input_id" value="">
+        <input type="submit" value="Submit">
+        <div id="alert" style="color: red"></div>
+    </form>
+
+<button type="button" id="btnOldMLB" onclick="get_old_mlb_match()">get old MLB teams</button>
+
+
+<p id="old_mlb_teams"></p>
+
+
+
+<ul class="lists">
+
+</ul>
+
+<template id="template">
+    <li class="template-list">
+        <p class="template-city"></p>
+        <p class="template-country"></p>
+    </li>
+</template>
+
+
+<h3>new MLB teams</h3>
+
+<button type="button" id="btnOldMLB" onclick="get_new_mlb_match()">get new MLB teams</button>
+
+
+<ul class="lists1">
+
+</ul>
+
+<template id="template1">
+    <li class="template1-list">
+        <p class="template1-city"></p>
+        <p class="template1-country"></p>
+    </li>
+</template>
+
+<button type="button" id="btnOldMLB" onclick="gen_mlb_today()">get today</button>
+
+
+<ul class="lists2">
+
+</ul>
+
+<template id="template2">
+    <li class="template2-list">
+        <p class="template2-team"></p>
+    </li>
+</template>
+
+<h3>serieux !?!?!?!</h3>
+<script src="script.js"></script>
+</body>
+</html>
