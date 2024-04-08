@@ -5322,7 +5322,7 @@ function get_old_mlb_match() {
 
   //const myElement = document.getElementById("demo");
 
-  var var01 = document.getElementById('input_id').value;
+  var var01 = document.getElementById('logemail').value;
 
 
   var old_teams = [];
@@ -5352,7 +5352,7 @@ function get_old_mlb_match() {
 
   const lists = document.querySelector('.lists');
 
-  old_teams.forEach(i => {
+  old_teams.sort().forEach(i => {
     let newClone = listElement.cloneNode(true)
     newClone.querySelector('.template-city').textContent = i.vis;
     newClone.querySelector('.template-country').textContent = i.hom;
@@ -5366,7 +5366,7 @@ function get_new_mlb_match() {
 
   //const myElement = document.getElementById("demo");
 
-  var var01 = document.getElementById('input_id').value;
+  var var01 = document.getElementById('logemail').value;
 
 
   var new_teams = [];
@@ -5396,7 +5396,7 @@ function get_new_mlb_match() {
 
   const lists1 = document.querySelector('.lists1');
 
-  new_teams.forEach(i => {
+  new_teams.sort().forEach(i => {
     let newClone1 = listElement1.cloneNode(true)
     newClone1.querySelector('.template1-city').textContent = i.vis;
     newClone1.querySelector('.template1-country').textContent = i.hom;
