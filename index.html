@@ -30,6 +30,27 @@
               <a class="template-city"></a> <a class="vide"> : </a> <a class="template-country"></a>
             </li>
           </template>
+        
+
+          <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="cote">Cote:</label>
+                <input type="text" id="cote" name="user_name" />
+              </li>
+              <li>
+                <label for="toWin">To win:</label>
+                <input type="text" id="toWin" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+          </form>
+
+          <button type="button" id="btnCalcul" class="button" onclick="calcul()">calcul</button>
+          
       </div>
     </div>
 
