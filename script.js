@@ -5488,4 +5488,16 @@ function gen_mlb_today() {
 
 }
 
+function calcul() {
+
+  var cote = document.getElementById('cote').value;
+
+  var toWin = document.getElementById('toWin').value;
+
+  var toBet = toWin / (cote / 100.00);
+
+  document.getElementById('msg').value = toBet;
+
+
+}
 
