@@ -5501,3 +5501,234 @@ function calcul() {
 
 }
 
+
+function genDay() {
+
+  var var01 = document.getElementById('logemail').value;
+
+  //pique ♠, cœur ♥, carreau ♦ et trèfle ♣
+  console.log(var01);
+  
+  var game_day = '';
+
+
+  //Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday
+
+  if (var01 == '1pi' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == '2pi' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == '3pi' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == '4pi' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == '5pi' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == '6pi' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == '7pi' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == '8pi' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == '9pi' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == '10pi' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == 'jpi' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == 'qpi' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == 'kpi' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == '1co' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == '2co' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == '3co' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == '4co' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == '5co' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == '6co' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == '7co' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == '8co' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == '9co' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == '10co' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == 'jco' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == 'qco' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == 'kco' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == '1tr' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == '2tr' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == '3tr' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == '4tr' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == '5tr' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == '6tr' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == '7tr' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == '8tr' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == '9tr' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == '10tr' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == 'jtr' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == 'qtr' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == 'ktr' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == '1ca' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == '2ca' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == '3ca' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == '4ca' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == '5ca' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == '6ca' ) {
+    game_day = 'Monday';
+  }
+
+  if (var01 == '7ca' ) {
+    game_day = 'Tuesday';
+  }
+
+  if (var01 == '8ca' ) {
+    game_day = 'Wednesday';
+  }
+
+  if (var01 == '9ca' ) {
+    game_day = 'Thursday';
+  }
+
+  if (var01 == '10ca' ) {
+    game_day = 'Friday';
+  }
+
+  if (var01 == 'jca' ) {
+    game_day = 'Saturday';
+  }
+
+  if (var01 == 'qca' ) {
+    game_day = 'Sunday';
+  }
+
+  if (var01 == 'kca' ) {
+    game_day = 'Monday';
+  }
+
+  
+
+  
+  document.getElementById("myspan").textContent = game_day;
+
+  //document.getElementById('game_day').value = var01;
+
+
+}
+
