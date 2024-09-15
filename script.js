@@ -5121,6 +5121,11 @@ function genMLB() {
 
 }
 
+
+
+
+
+
 function genWNBA() {
 
 
@@ -5187,6 +5192,79 @@ function genWNBA() {
 
   document.getElementById('wnba_team').innerHTML = fruits;
 
+}
+
+
+function genNBA() {
+  ones = ['🤩', 'Boston Celtics', '💥', 'Brooklyn Nets', '💙',
+    '💋', 'New York Knicks', 'Philadelphia 76ers', '💯', '🙉',
+    'Toronto Raptors', '👨‍🦱', 'Chicago Bulls', '💪', 'Cleveland Cavaliers',
+    '👍', 'Detroit Pistons', '💣', 'Indiana Pacers', '💕',
+    'Milwaukee Bucks', '😹', 'Atlanta Hawks', '👁️‍🗨️', 'Charlotte Hornets',
+    '👹', 'Miami Heat', '👻', 'Orlando Magic','😱', 'Washington Wizards','👽',
+    '💯', 'Denver Nuggets','🙉','Minnesota Timberwolves', '😹','Oklahoma City Thunder', '🤩',
+    '💥', 'Portland Trail Blazers','💙', 'Utah Jazz','💋', 'Golden State Warriors','💯', 'LA Clippers',
+    '👨‍🦱', 'Los Angeles Lakers','💪', 'Phoenix Suns','👍', 'Sacramento Kings',
+    '💣', 'Dallas Mavericks','💕', 'Houston Rockets','👁️‍🗨️', 'Memphis Grizzlies',
+    '👹', 'New Orleans Pelicans','👻', 'San Antonio Spurs','😱']
+  
+    twos = ['🤩', 'Boston Celtics', '💥', 'Brooklyn Nets', '💙',
+    '💋', 'New York Knicks', 'Philadelphia 76ers', '💯', '🙉',
+    'Toronto Raptors', '👨‍🦱', 'Chicago Bulls', '💪', 'Cleveland Cavaliers',
+    '👍', 'Detroit Pistons', '💣', 'Indiana Pacers', '💕',
+    'Milwaukee Bucks', '😹', 'Atlanta Hawks', '👁️‍🗨️', 'Charlotte Hornets',
+    '👹', 'Miami Heat', '👻', 'Orlando Magic','😱', 'Washington Wizards','👽',
+    '💯', 'Denver Nuggets','🙉','Minnesota Timberwolves', '😹','Oklahoma City Thunder', '🤩',
+    '💥', 'Portland Trail Blazers','💙', 'Utah Jazz','💋', 'Golden State Warriors','💯', 'LA Clippers',
+    '👨‍🦱', 'Los Angeles Lakers','💪', 'Phoenix Suns','👍', 'Sacramento Kings',
+    '💣', 'Dallas Mavericks','💕', 'Houston Rockets','👁️‍🗨️', 'Memphis Grizzlies',
+    '👹', 'New Orleans Pelicans','👻', 'San Antonio Spurs','😱']
+
+    const fruits = [];
+
+  for (let i = 0; i < 50; i++) {
+      var ran_int = int_list[Math.floor(Math.random()*int_list.length)];
+      var ran_ani = animals[Math.floor(Math.random()*animals.length)];
+      //console.log(ran_ani+ran_int);
+
+      ran_num = ran_ani+ran_int;
+
+      json_data[ran_num]
+
+      if (json_data[ran_num] % 2 == 0) {
+          fruits.push(ones[Math.floor(Math.random()*ones.length)]);
+      }
+
+      if (json_data[ran_num] % 2 == 1) {
+              fruits.push(twos[Math.floor(Math.random()*twos.length)]);
+          }
+      
+    }
+
+
+    for (let i = 0; i < 49; i++) {
+      var ran_int = int_list[Math.floor(Math.random()*int_list.length)];
+      var ran_ani = animals[Math.floor(Math.random()*animals.length)];
+      console.log(ran_ani+ran_int);
+
+      ran_num = ran_ani+ran_int;
+
+      json_data[ran_num]
+
+      if (json_data[ran_num] % 2 == 0) {
+          fruits.pop();
+      }
+
+      if (json_data[ran_num] % 2 == 1) {
+              fruits.shift();
+          }
+      
+    }
+  
+    //var ran_int = threes[Math.floor(Math.random()*threes.length)];
+
+  //console.log("we are in");
+  document.getElementById('nba_team').innerHTML = fruits;
 }
 
 function genNFL() {
